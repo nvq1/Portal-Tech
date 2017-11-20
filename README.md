@@ -1,5 +1,35 @@
 # Portal-Tech
 
+Task 1
+index.html
+<!DOCTYPE html>
+<html>
+<head>Task 1
+<link href='stylesheet.css'  rel='stylesheet'>
+</head>
+<body>
+<div id="hw" class="blue">Hello World!</div>
+<button id='btn'>CLICK</button>
+</body>
+<script scr="app.js"></script>
+</html>
+
+app.js
+var main= function() {
+$("#btn").click(function() {
+  $('#hw').toggleClass('blue yellow');
+});}
+$(document).ready(main);
+
+stylesheet.css
+/*Initial body*/
+#hw: {
+color: blue;}
+
+/*After click*/
+.yellow: {
+color: yellow;}
+
 Task 2
 <html>
 <head>Task 2</head>
